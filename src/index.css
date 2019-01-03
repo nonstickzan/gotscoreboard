@@ -1,0 +1,59 @@
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.padded {
+  padding: 5px;
+}
+
+.count {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sigil {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.army {
+  margin-left: 20px;
+}
+
+.right {
+  margin-right: 20px;
+}
+
+.lannister {
+  background-color: lightcoral;
+}
+
+.stark {
+  background-color: gainsboro;
+}
+
+.greyjoy {
+  background-color: silver;
+}
+
+.baratheon {
+  background-color: lightyellow;
+}
+
+.arryn {
+  background-color: lightskyblue;
+}
+
+.martell {
+  background-color: burlywood;
+}
+
+.tyrell {
+  background-color: lightgreen;
+}
+
+.targaryen {
+  background-color: lightsalmon;
+}
