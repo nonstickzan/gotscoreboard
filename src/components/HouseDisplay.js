@@ -113,9 +113,9 @@ class HouseDisplay extends React.Component {
 
   console.log(house)
   return (
-  <div class="container">
+  <div class="container is-fullhd">
     <div class={house.name}>
-      <div class="level">
+      <div class="level is-mobile">
         <div class="level-item level-left">
           <img class="image sigil" height="96px" width="74px" src={house.img}/>
           <img src="barrel.png" class="image is-48x48 army"/>
@@ -129,7 +129,7 @@ class HouseDisplay extends React.Component {
             <h1 class="title army">{BARRELS[house.barrels]}</h1>
         </div>
 
-        <div class="level-item level-right right">
+        <div class="level-item level-right">
           <img src="castle.png" class="image is-48x48"/>
           <i class="fas fa-minus padded" onClick={() => this.removeCastle(house.id)}></i>
           <h1 class="title count">{house.castles}</h1>
