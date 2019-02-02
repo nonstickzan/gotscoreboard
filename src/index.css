@@ -1,15 +1,10 @@
-.is-vertical-center {
-  display: flex;
-  align-items: center;
-}
-
 .padded {
   padding: 5px;
 }
 
-.count {
-  padding-left: 5px;
-  padding-right: 5px;
+.padded-track {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .sigil {
@@ -20,10 +15,6 @@
 
 .army {
   margin-left: 20px;
-}
-
-.right {
-  margin-right: 20px;
 }
 
 .lannister {
@@ -56,4 +47,23 @@
 
 .targaryen {
   background-color: lightsalmon;
+}
+
+.throne-track {
+  background-color: lightslategray;
+  margin-bottom: 0px !important;
+}
+
+.sword-track {
+  background-color: slategray;
+  margin-bottom: 0px !important;
+}
+
+.raven-track {
+  background-color: lightslategray;
+  margin-bottom: 0px !important;
+}
+
+.track-icons {
+  margin-left: 20px;
 }

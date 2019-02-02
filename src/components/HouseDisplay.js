@@ -113,31 +113,29 @@ class HouseDisplay extends React.Component {
 
   console.log(house)
   return (
-  <div class="container is-fullhd">
     <div class={house.name}>
       <div class="level is-mobile">
         <div class="level-item level-left">
-          <img class="image sigil" height="96px" width="74px" src={house.img}/>
-          <img src="barrel.png" class="image is-48x48 army"/>
+          <img class="image sigil" height="48px" width="48px" src={house.img} alt={house.name}/>
+          <img src="barrel.png" alt="barrel" class="image is-48x48 army"/>
           <i class="fas fa-minus padded" onClick={() => this.removeBarrel(house.id)}></i>
           <h1 class="title count">{house.barrels}</h1>
           <i class="fas fa-plus padded" onClick={() => this.addBarrel(house.id)}></i>
         </div>
         
         <div class="level-item">
-            <img src="helmet.png" class="image is-48x48" />
+            <img src="helmet.png" alt="helmet" class="image is-48x48" />
             <h1 class="title army">{BARRELS[house.barrels]}</h1>
         </div>
 
-        <div class="level-item level-right">
-          <img src="castle.png" class="image is-48x48"/>
+        <div class="level-item level-right padded-right">
+          <img src="castle.png" alt="castle" class="image is-48x48"/>
           <i class="fas fa-minus padded" onClick={() => this.removeCastle(house.id)}></i>
           <h1 class="title count">{house.castles}</h1>
           <i class="fas fa-plus padded" onClick={() => this.addCastle(house.id)}></i>
         </div>
       </div>
     </div>
-  </div>
 )})
 }
 }
